@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
  
 
 namespace Lista_Doble_Circular
@@ -32,9 +31,8 @@ namespace Lista_Doble_Circular
                         Console.WriteLine("\n\n AGREGAR NODO EN LA LISTA \n");
                         int numero = int.Parse(Console.ReadLine());
                         l.agregarNodo(numero);
-                        l.Guardar("ListaDobleCircular");
+                        l.Guardar("");
                         break;
-                       
                     case 2:
                         Console.WriteLine("\n\n BUSCAR UN NODO EN LA LISTA \n");
                         l.buscarNodo();
@@ -50,8 +48,6 @@ namespace Lista_Doble_Circular
                     case 5:
                         Console.WriteLine("\n\n DESPLEGAR LISTA DE NODOS DEL PRIMERO AL ULTIMO \n");
                         l.desplegarListaPU();
-
-                        l.Cargar("ListaDobleCircular");
                         break;
                     //case 6:
                     //    Console.WriteLine("\n\n DESPEGAR LISTA DE NODOS DEL ULTIMO AL PRIMERO \n");
@@ -66,10 +62,8 @@ namespace Lista_Doble_Circular
                         break;
                 }
             } while (opcionMenu !=7);
-
-
-      
-
+           
+          
         }
     }
 }

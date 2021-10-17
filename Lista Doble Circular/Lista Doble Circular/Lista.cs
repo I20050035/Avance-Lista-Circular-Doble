@@ -9,7 +9,11 @@ namespace Lista_Doble_Circular
 {
     class Lista
     {
-        // profe si nota alugunos errores es porque estamos haciendo las correspondientes adaptaciones y hemos tenido problemas para hacer que funcionen :C
+        //LEER
+        //Profe este es una avance de lo que hemos estado haciendo si nota alguno errores y cosas comentadas es porque estamos haciendo las adaptaciones correspondientes y hemos tenido algunos problemas :(
+        //El de desplegar lista hace casi la misma funcion que el de cargar porque ese muestra lista. esta bien si dejo eso?
+        
+
         //lista Circular doble ... head y cual es el final
         private Nodo head;
 
@@ -38,7 +42,7 @@ namespace Lista_Doble_Circular
                 return;
             }
             Nodo h = head;
-            if (nuevo.dato > head.dato)
+            if (nuevo.dato < head.dato)
             {
                 Nodo ultimo = head.anterior;
                 nuevo.siguiente = head;
@@ -46,20 +50,30 @@ namespace Lista_Doble_Circular
                 head.anterior = nuevo;
                 ultimo.siguiente = nuevo;
                 head = nuevo;
+                while (h.siguiente != head)
+                {
+                    h = h.siguiente;
+                }
+                h.siguiente = nuevo;
+                head = nuevo;
                 return;
             }
-            while (h.dato != nuevo.dato)
+            while (nuevo != head)
             {
                 if (nuevo.dato < h.siguiente.dato)
                 {
                     break;
                 }
-                Nodo ultimo = head.anterior;
-                nuevo.siguiente = head;
-                nuevo.anterior = ultimo;
-                head.anterior = nuevo;
-                ultimo.siguiente = nuevo;
-                return;
+                h = h.siguiente;
+                if (nuevo.dato > h.dato)
+                {
+                    Nodo ultimo = head.anterior;
+                    nuevo.siguiente = head;
+                    nuevo.anterior = ultimo;
+                    head.anterior = nuevo;
+                    ultimo.siguiente = nuevo;
+                    return;
+                }
             }
             nuevo.siguiente = h.siguiente;
             h.siguiente = nuevo;
@@ -223,7 +237,6 @@ namespace Lista_Doble_Circular
         //        Console.WriteLine("\n La lista se encuentra vacia\n");
         //    }
         //}
-
 
         public void Guardar(string nombreArchivo)
         {

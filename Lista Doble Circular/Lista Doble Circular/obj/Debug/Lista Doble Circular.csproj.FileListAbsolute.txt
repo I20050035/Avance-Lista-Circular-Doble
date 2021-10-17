@@ -12,3 +12,10 @@ C:\Users\jared\Desktop\este\Lista Doble Circular\Lista Doble Circular\obj\Debug\
 C:\Users\jared\Desktop\este\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.csproj.CoreCompileInputs.cache
 C:\Users\jared\Desktop\este\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.exe
 C:\Users\jared\Desktop\este\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.pdb
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\bin\Debug\Lista Doble Circular.exe.config
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\bin\Debug\Lista Doble Circular.exe
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\bin\Debug\Lista Doble Circular.pdb
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.csprojAssemblyReference.cache
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.csproj.CoreCompileInputs.cache
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.exe
+D:\Usuario\Desktop\Max Tec Monclova\a\Lista Doble Circular\Lista Doble Circular\obj\Debug\Lista Doble Circular.pdb
